@@ -1,0 +1,28 @@
+.live-market{
+    display: flex;
+    overflow: hidden;
+}
+.live-market .node-header{
+    width: 160px ;
+    height: 40px;
+    padding: 2px 10px ;
+    background-color: #cef739;
+    font-size: 12px;
+    color:#0a0a0a ;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.live-market .node{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 160px;
+    height: 40px;
+    padding: 2px 5px;
+    border: 0.3px solid #454547;
+}
+.live-market .node .title{
+    color: #454547;
+    padding-right:px;
+}

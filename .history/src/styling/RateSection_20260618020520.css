@@ -1,0 +1,31 @@
+
+.rate h3{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.rate-sec{
+    background-color: #3d3d3d;
+    border-radius: 16px;
+    padding: 20px;
+}
+.rate-sec .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rate-sec .info > button{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #454547;
+    border: 0.2px #5f5e5e solid;
+    border-radius: 5px;
+}
+.rate-sec .info .send-sec p,
+.rate-sec .info .receive-sec p{
+    text-transform: uppercase;
+}

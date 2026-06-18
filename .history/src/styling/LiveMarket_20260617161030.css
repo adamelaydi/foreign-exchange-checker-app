@@ -1,0 +1,14 @@
+.live-market{
+    display: flex;
+}
+.node{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 160px;
+    background-color: antiquewhite;
+    height: 40px;
+    padding: 2px 5px;
+    border: 0.5 solid #;
+}

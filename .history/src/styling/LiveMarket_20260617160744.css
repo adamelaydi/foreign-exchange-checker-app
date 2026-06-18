@@ -1,0 +1,9 @@
+.node{
+    display: flex;
+    
+    font-size: 12px;
+    width: 150px;
+    background-color: antiquewhite;
+    height: 40px;
+
+}
