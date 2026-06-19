@@ -8,13 +8,8 @@
     border-radius: 10px;
     margin: 10px 0;
 }
-.parent img{
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-}
 .parent .info{
-    width: 90%;
+    width: 95%;
     height: 61px;
     display: flex;
     justify-content: space-between;

@@ -3,8 +3,8 @@ import GradeIcon from '@mui/icons-material/Grade';
 // IMAGE
 import logo from "../assets/eg.webp"
 // STYLING
-import "../styling/Paire.css"
-export default function Paire(){
+import "../styling/FaPaire.css"
+export default function FavoritePaire(){
     return(
         <div className='parent'>
             <img src={logo}/>

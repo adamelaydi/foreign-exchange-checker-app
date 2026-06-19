@@ -1,7 +1,6 @@
 //COMPONENTS
 import History from "./History"
 import Compare from "./Compare"
-import Favourite from "./Favourite"
 // STYLING
 import "../styling/MultiPurpos.css"
 
@@ -20,7 +19,6 @@ export default function MultiProps(){
             <div className="info-container">
                 {/* <History/> */}
                 {/* <Compare/> */}
-                <Favourite/>
             </div>
     </div>
     

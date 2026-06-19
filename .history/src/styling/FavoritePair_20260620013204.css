@@ -8,13 +8,8 @@
     border-radius: 10px;
     margin: 10px 0;
 }
-.parent img{
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-}
 .parent .info{
-    width: 90%;
+    width: 93%;
     height: 61px;
     display: flex;
     justify-content: space-between;
@@ -33,6 +28,9 @@
     font-size: 12px;
     text-transform: capitalize;
     letter-spacing: 1px;
+}
+.parent .info .result .rate{
+    color: #cef739;
 }
 .fav{
     color: #cef739;

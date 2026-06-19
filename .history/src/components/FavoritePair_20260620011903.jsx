@@ -1,21 +1,17 @@
 // MATERIAL UI
 import GradeIcon from '@mui/icons-material/Grade';
-// IMAGE
-import logo from "../assets/eg.webp"
 // STYLING
-import "../styling/Paire.css"
-export default function Paire(){
+import "../styling/FavoritePair.css"
+export default function FavoritePaire(){
     return(
         <div className='parent'>
-            <img src={logo}/>
             <div className="info">
                 <div className="name">
-                    <p className="code">eg</p>
-                    <p className="fullname">egypt</p>
+                    <p className="code"><span className="first">eg</span> {"->"} <span className='second'>usd</span></p>
                 </div>
                 <div className="result">
                     <p className='value'>157.910</p>
-                    <p className='rate'><span>@ </span> 157.91</p>
+                    <p className='rate'>^ =</p>
                 </div>
             </div>
             <GradeIcon className="fav" />

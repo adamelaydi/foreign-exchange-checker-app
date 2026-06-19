@@ -18,7 +18,7 @@ export default function Paire(){
                     <p className='rate'><span>@ </span> 157.91</p>
                 </div>
             </div>
-            <GradeIcon className="fav" />
+            <GradeIcon className />
         </div>
     )
 }

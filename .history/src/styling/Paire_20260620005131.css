@@ -34,9 +34,4 @@
     text-transform: capitalize;
     letter-spacing: 1px;
 }
-.fav{
-    color: #cef739;
-    border:1.5px solid #cef739;
-    padding:4px;
-    border-radius: 7px;
-}
+.fav

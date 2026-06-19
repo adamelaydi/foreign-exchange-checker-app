@@ -20,7 +20,6 @@ export default function MultiProps(){
             <div className="info-container">
                 {/* <History/> */}
                 {/* <Compare/> */}
-                <Favourite/>
             </div>
     </div>
     
