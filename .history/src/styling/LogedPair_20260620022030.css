@@ -1,0 +1,17 @@
+.info-loged{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-loged p{
+    font-size:16px ;
+    text-transform: uppercase;
+}
+.loged-result{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.loged-result .second-value[
+    
+]

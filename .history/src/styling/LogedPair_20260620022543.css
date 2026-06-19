@@ -1,0 +1,29 @@
+.parent{
+    border: ;
+}
+.info-loged{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-loged p{
+    font-size:16px ;
+    text-transform: uppercase;
+}
+.loged-result{
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loged-result .second-value{
+    color: #42eb05;
+}
+.del-btn{
+    border:2px solid #2e2e2e;
+    background-color: #202022;
+    color: #9d9d9d;
+    padding: 2px;
+    border-radius: 5px;
+}

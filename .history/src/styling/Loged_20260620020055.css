@@ -1,0 +1,22 @@
+.loged-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.info{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.info .clear-btn{
+    font-size: 10px;
+    border-radius: 5px;
+    color: #9d9d9d;
+    background-color: #2e2e2e;
+    padding: 1px;
+    margin-left: 10px;
+}
+.loged-header .title{
+    color: #;
+}

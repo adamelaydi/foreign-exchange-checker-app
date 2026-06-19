@@ -2,7 +2,6 @@
 import History from "./History"
 import Compare from "./Compare"
 import Favourite from "./Favourite"
-import Loged from "./Loged"
 // STYLING
 import "../styling/MultiPurpos.css"
 
@@ -22,7 +21,7 @@ export default function MultiProps(){
                 {/* <History/> */}
                 {/* <Compare/> */}
                 {/* <Favourite/> */}
-                <Loged/>
+                <
             </div>
     </div>
     

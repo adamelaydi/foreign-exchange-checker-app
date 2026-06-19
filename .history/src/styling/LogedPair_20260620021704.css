@@ -1,0 +1,11 @@
+.info{
+    font-size: 17px;
+}
+.info p{
+    font-size: ;
+}
+.loged-result{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}

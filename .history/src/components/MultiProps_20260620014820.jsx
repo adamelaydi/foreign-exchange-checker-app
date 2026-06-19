@@ -2,9 +2,9 @@
 import History from "./History"
 import Compare from "./Compare"
 import Favourite from "./Favourite"
-import Loged from "./Loged"
 // STYLING
 import "../styling/MultiPurpos.css"
+import Loged from "./Loged"
 
 export default function MultiProps(){
     return(

@@ -1,0 +1,11 @@
+.info-loged{
+
+}
+.info p{
+    font-size:16px ;
+}
+.loged-result{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
