@@ -1,0 +1,28 @@
+.history{
+    width: 100%;
+}
+.history .header-bar{
+    display: flex;
+}
+.history .header-bar .change-sec{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.history .header-bar .change-sec .node{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #171719;
+    padding: 10px;
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.history .header-bar .change-sec .node p{
+    padding: 0;
+    margin: 0;
+}

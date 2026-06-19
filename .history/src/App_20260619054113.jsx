@@ -13,8 +13,7 @@ function App() {
       <div className="container">
         <Header/>
         <LiveMarket />
-        <RateSection/>
-        <MultiProps/>   
+        <RateSection/>  
       </div>
     </>
   )

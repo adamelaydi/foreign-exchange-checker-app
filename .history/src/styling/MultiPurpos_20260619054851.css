@@ -1,0 +1,22 @@
+.main-sec{
+    background-color: aquamarine;
+    width: 100%;
+    margin: 32px;
+
+    height: 500px;
+}
+.main-sec nav{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 0.5px dashed #454547;
+}
+.main-sec nav ul{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-sec nav ul li{
+    text-transform: uppercase;
+}

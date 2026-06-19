@@ -1,0 +1,14 @@
+.history{
+    width: 100%;
+}
+.history .header-bar{
+    display: flex;
+}
+.history .header-bar .change-sec{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.history .header-bar .change-sec .node{
+    text-transform: ;
+}

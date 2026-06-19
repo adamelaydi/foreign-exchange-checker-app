@@ -1,0 +1,22 @@
+export default function History(){
+    return (
+        <>
+            <div className="header-bar">
+                <div className="change-sec">
+                    <div className="node">
+                        <p>open</p>
+                        <p>0.8516</p>
+                    </div>
+                    <div className="node">
+                        <p>last</p>
+                        <p></p>
+                    </div>
+                    <div className="node">
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}

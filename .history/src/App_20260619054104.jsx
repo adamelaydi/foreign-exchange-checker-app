@@ -2,7 +2,7 @@
 import Header from './components/Header'
 import LiveMarket from './components/LiveMarket'
 import RateSection from './components/RateSection'
-import MultiProps from './components/MultiProps'
+imort
 // STYLING
 import './App.css'
 
@@ -13,8 +13,7 @@ function App() {
       <div className="container">
         <Header/>
         <LiveMarket />
-        <RateSection/>
-        <MultiProps/>   
+        <RateSection/>  
       </div>
     </>
   )

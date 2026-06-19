@@ -14,7 +14,7 @@ function App() {
         <Header/>
         <LiveMarket />
         <RateSection/>
-        <MultiProps/>   
+          
       </div>
     </>
   )

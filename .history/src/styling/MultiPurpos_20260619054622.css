@@ -1,0 +1,12 @@
+.main-sec{
+    background-color: aquamarine;
+    width: 100%;
+    margin-top: 32px;
+}
+.main-sec nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.main-sec nav ul{
+    list-style: none;wid
+}
