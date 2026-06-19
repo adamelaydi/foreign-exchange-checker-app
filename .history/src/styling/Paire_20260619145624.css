@@ -1,0 +1,36 @@
+.parent{
+    height: 41px;
+    background-color: #202022;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.parent img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.parent .info{
+    width: 90%;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.parent .info p{
+    margin:3px;
+}  
+.parent .info .name .code{
+    color:#ffffff ;
+    text-transform: uppercase;
+}
+.parent .info .name .fullname{
+    font-size: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.parent .info .result .vl{
+
+}

@@ -1,0 +1,18 @@
+.parent{
+    height: 61px;
+    background-color: #202022;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parent img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.parent .info{
+    background-color: azure;
+    width: 80%;
+    height: 61px;
+    display: flex;
+}   

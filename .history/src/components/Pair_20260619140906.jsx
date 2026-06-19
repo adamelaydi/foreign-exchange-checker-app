@@ -1,0 +1,16 @@
+export default function Paire(){
+    return(
+        <div>
+            <img src="" alt="" />
+            <div className="info">
+                <div className="name">
+                    <p className="code"></p>
+                    <p className="fullname"></p>
+                </div>
+                <div className="result">
+                    
+                </div>
+            </div>
+        </div>
+    )
+}

@@ -1,0 +1,23 @@
+.compare{
+    width: var(100%-20px);
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 20px;
+}
+.header-sec{
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 300;
+    height: 40px;
+    background-color: azure;
+    display: flex;
+    ali
+}
+.header-sec > p{
+    padding: 0;
+    margin: 0;
+}
+.header-sec > p.h .num{
+    color:#ffffff ;
+}

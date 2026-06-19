@@ -1,7 +1,7 @@
 .main-sec{
     width: 100%;
     margin: 32px 0;
-    height: 500px;
+    height:fit-content;
 }
 .main-sec nav{
     display: flex;
@@ -29,7 +29,7 @@
 .main-sec .info-container{
     margin-top: 20px;
     width: 100%;
-    height: 430px;
+    height:fit-content;
     padding:0;
 
 }

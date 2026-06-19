@@ -1,0 +1,15 @@
+.parent{
+    height: 61px;
+    background-color: #202022;
+    display: flex;
+    justify-content: space-between;
+}
+.parent img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.parent .info{
+    background-color: azure;
+    width: 80%;
+}   

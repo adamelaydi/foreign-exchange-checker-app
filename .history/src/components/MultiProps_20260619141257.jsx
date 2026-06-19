@@ -1,6 +1,6 @@
 //COMPONENTS
 import History from "./History"
-import Compare from "./Compare"
+<IMPORT></IMPORT>
 // STYLING
 import "../styling/MultiPurpos.css"
 
@@ -18,7 +18,6 @@ export default function MultiProps(){
             </nav>
             <div className="info-container">
                 {/* <History/> */}
-                <Compare/>
             </div>
     </div>
     

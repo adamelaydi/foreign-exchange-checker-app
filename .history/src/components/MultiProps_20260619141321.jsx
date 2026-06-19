@@ -18,7 +18,6 @@ export default function MultiProps(){
             </nav>
             <div className="info-container">
                 {/* <History/> */}
-                <Compare/>
             </div>
     </div>
     

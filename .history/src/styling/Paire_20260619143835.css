@@ -1,0 +1,10 @@
+.parent{
+    height: 61px;
+    background-color: #202022;
+    display: flex;
+    justify-content: do;
+}
+.parent img{
+    width: 24px;
+    border-radius: 50%;
+}
