@@ -1,0 +1,115 @@
+
+.rate h3{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.rate-sec{
+    background-color: #3d3d3d;
+    border-radius: 16px;
+    padding: 20px;
+}
+.rate-sec .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate-sec .info > button{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #454547;
+    border: 0.2px #616161 solid;
+    border-radius: 5px;
+}
+
+.rate-sec .info .send-sec,
+.rate-sec .info .receive-sec {
+    width: 40%;
+    height: 110px;
+    background-color:#454547 ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.rate-sec .info .send-sec p,
+.rate-sec .info .receive-sec p{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.rate-sec .info .send-sec > .data,
+.rate-sec .info .receive-sec > .data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.rate-sec .info .send-sec > .data >input,
+.rate-sec .info .receive-sec > .data>input{
+    width: 45%;
+    height: 40px;
+    outline:none ;
+    background-color: #454547;
+    border: none;
+    border-bottom: 1px solid #616161 ;
+    color: #616161;
+    font-size: 25px;
+    font-family: jetMono;
+}
+
+.rate-sec .info .receive-sec > .data>input{
+    color: #42eb05;
+}
+.rate-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-top:8px ;
+    border-top: 1px dashed #616161;
+}
+.rate-footer >p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.rate-footer .btns{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.rate-footer .btns button{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #3d3d3d;
+    border: 0.5px solid #454547;
+    color:#616161;
+    text-transform: uppercase;
+    font-family: jetMono;
+}
+.rate-footer .btns button .star{
+    size: 10px;
+}
+
+@media (max-width:756px) {
+    .rate-sec .info{
+        flex-direction: column;
+    }
+    .rate-sec .info .send-sec,
+.rate-sec .info .receive-sec {
+    width: 90%;
+}
+.rate-sec .info > button{
+    margin: 15px 0;
+    transform: rotateY(100deg);
+}
+}

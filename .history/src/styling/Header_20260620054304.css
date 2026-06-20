@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media (max-width:756px) {
+    header{
+        font-size: 12px;
+    }
+}
+@media (max-width:480px) {
+    header{
+        font-size: 10px;
+    }
+    header img{
+        width: ;
+    }
+}
