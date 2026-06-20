@@ -1,0 +1,61 @@
+.Loged-parent{
+    border: 2px solid #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius:10px;
+    
+}
+.time{
+    margin-right: 15px;
+}
+.info-loged{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-loged p{
+    font-size:16px ;
+    text-transform: uppercase;
+}
+.loged-result{
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loged-result .second-value{
+    color: #42eb05;
+}
+
+.del-btn{
+    border:2px solid #2e2e2e;
+    background-color: #202022;
+    color: #9d9d9d;
+    padding: 2px;
+    border-radius: 5px;
+}
+@media (max-width:480px) {
+    .Loged-parent p{
+        font-size: 12px;
+    }
+    .Loged-parent .code{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .loged-result{
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loged-result p{
+    margin: 3px;
+}
+}
