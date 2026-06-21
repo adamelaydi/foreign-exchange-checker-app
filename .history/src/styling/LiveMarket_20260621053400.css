@@ -1,0 +1,72 @@
+.parent-live{
+    display: flex;
+    width: 100%;
+}
+.live-market{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+}
+.node-header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px ;
+    height: 30px;
+    padding:2.5px 10px ;
+    background-color: #cef739;
+    font-size: 12px;
+    color:#0a0a0a ;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.live-market .node{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    width: 160px;
+    height: 30px;
+    padding: 2px 5px;
+    border: 0.3px solid #454547;
+}
+.live-market .node p{
+    wi
+}
+.live-market .node .title{
+    color: #454547;
+    text-transform: uppercase;
+    
+}
+.live-market .node > .value{
+    font-size: 8px;
+}
+.live-market .node .pointer{
+    color:#42eb05 ;
+}
+
+.li {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #111;
+    color: white;
+}
+
+.track {
+    display: flex;
+    gap: 5px;
+    width: max-content;
+    animation: scroll 45s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
