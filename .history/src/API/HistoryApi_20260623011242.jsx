@@ -1,0 +1,14 @@
+// AXIOS
+import axios from "axios";
+export async function GetHistory(group="month" ,base="USD",quote="EUR",begin="2026-06-01"){
+    try {
+        const url=`https://api.frankfurter.dev/v2/rates?from=2026-01-01&group=month`;
+        console.log(url)
+        const response = await axios.get(url);
+        console.log(response.data)
+        return response.data; 
+    } catch (error) {
+        console.error("API Error:", error);
+        return null;
+    }
+}
