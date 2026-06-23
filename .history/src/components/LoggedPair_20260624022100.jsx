@@ -20,11 +20,10 @@ export default function LogedPair({base,quote}){
         <div className='Loged-parent'>
             <div className="info-loged">
                 <div className="name">
-                    <p className="code"><span className="first">{base}</span> {"->"} <span className='second'>{quote}</span></p>
+                    <p className="code"><span className="time">20M</span><span><span className="first">{base}</span> {"->"} <span className='second'>{quote}</span></span></p>
                 </div>
                 <div className="loged-result">
                     <p className='first-value'>1000.00</p>
-                    -
                     <p className='second-value'>{Number(Data.rate*1000).toFixed(2)}</p>
                 </div>
             </div>
@@ -35,7 +34,7 @@ export default function LogedPair({base,quote}){
                         return item;
                     }
                 })
-                localStorage.setItem("log",JSON.stringify(d));
+                localStorage.setItem("favorits",JSON.stringify(d));
             }}>
                 <DeleteIcon className='del-btn' />
             </IconButton>

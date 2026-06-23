@@ -23,8 +23,7 @@ export default function LogedPair({base,quote}){
                     <p className="code"><span className="first">{base}</span> {"->"} <span className='second'>{quote}</span></p>
                 </div>
                 <div className="loged-result">
-                    <p className='first-value'>1000.00</p>
-                    -
+                    <p className='first-value'>1000.00</p
                     <p className='second-value'>{Number(Data.rate*1000).toFixed(2)}</p>
                 </div>
             </div>

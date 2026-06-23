@@ -34,8 +34,7 @@ export default function Loged(){
                 <div className="info">
                     <p><span>{num}</span> logged</p>
                     <Button className="clear-btn" onClick={()=>{
-                        localStorage.setItem("log",JSON.stringify([]))
-                        setPairs(null)
+                        localStorage.setItem("log",JSON.stringify())
                     }}>ClEAR ALL</Button>
                 </div>
             </div>

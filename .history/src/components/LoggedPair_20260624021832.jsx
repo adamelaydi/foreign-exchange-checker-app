@@ -20,23 +20,14 @@ export default function LogedPair({base,quote}){
         <div className='Loged-parent'>
             <div className="info-loged">
                 <div className="name">
-                    <p className="code"><span className="first">{base}</span> {"->"} <span className='second'>{quote}</span></p>
+                    <p className="code"><span className="time">20M</span><span><span className="first">{base}</span> {"->"} <span className='second'>{quote}</span></span></p>
                 </div>
                 <div className="loged-result">
                     <p className='first-value'>1000.00</p>
-                    -
-                    <p className='second-value'>{Number(Data.rate*1000).toFixed(2)}</p>
+                    <p className='second-value'>{}</p>
                 </div>
             </div>
-            <IconButton aria-label="delete" onClick={()=>{
-                let data=JSON.parse(localStorage.getItem("log"))
-                let d=data.filter((item)=>{
-                    if(item.base!=Data.base||item.quote!=Data.quote){
-                        return item;
-                    }
-                })
-                localStorage.setItem("log",JSON.stringify(d));
-            }}>
+            <IconButton aria-label="delete">
                 <DeleteIcon className='del-btn' />
             </IconButton>
         </div>

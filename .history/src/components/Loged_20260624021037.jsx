@@ -1,6 +1,5 @@
 //HOOKS
-import { useEffect,useState,useContext } from "react"
-import { DataContext } from "../contexts/DataContext"
+import { useEffect,useState } from "react"
 // COMPONENTS
 import LogedPair from "./LoggedPair"
 // STYLING
@@ -13,10 +12,10 @@ export default function Loged(){
         const [num,setNum]=useState(0)
         useEffect(()=>{
             async function getData(){
-                let data = JSON.parse(localStorage.getItem("log"))
+                let data = JSON.parse(localStorage.getItem("favorits"))
                 setNum(data.length);
                 let Pairs = data.map((d, index) => (
-                <LogedPair
+                <FavoritePair
                     key={index}
                     base={d.base}
                     quote={d.quote}
@@ -26,21 +25,32 @@ export default function Loged(){
             }
             getData();
             },[value.rate])
-
+    const [Data,setData]=useState([""])
+    useEffect(()=>{
+        async function getData(){
+            let data = JSON.parse(localStorage.getItem("log"));
+            seti
+        }
+    })
     return(
         <div className="loged">
             <div className="loged-header">
                 <p className="title">converstion</p>
                 <div className="info">
-                    <p><span>{num}</span> logged</p>
-                    <Button className="clear-btn" onClick={()=>{
-                        localStorage.setItem("log",JSON.stringify([]))
-                        setPairs(null)
-                    }}>ClEAR ALL</Button>
+                    <p><span>8</span> logged</p>
+                    <Button className="clear-btn">ClEAR ALL</Button>
                 </div>
             </div>
             <div className="content loged-content">
-                {pairs}
+                <LogedPair/>
+                <LogedPair/>    
+                <LogedPair/>
+                <LogedPair/>
+                <LogedPair/>
+                <LogedPair/>
+                <LogedPair/>
+                <LogedPair/>
+                
             </div>
         </div>
     )

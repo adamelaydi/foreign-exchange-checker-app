@@ -33,14 +33,11 @@ export default function Loged(){
                 <p className="title">converstion</p>
                 <div className="info">
                     <p><span>{num}</span> logged</p>
-                    <Button className="clear-btn" onClick={()=>{
-                        localStorage.setItem("log",JSON.stringify([]))
-                        setPairs(null)
-                    }}>ClEAR ALL</Button>
+                    <Button className="clear-btn">ClEAR ALL</Button>
                 </div>
             </div>
             <div className="content loged-content">
-                {pairs}
+                {}
             </div>
         </div>
     )

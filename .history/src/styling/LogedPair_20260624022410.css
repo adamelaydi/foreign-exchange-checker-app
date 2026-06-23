@@ -26,6 +26,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.loged-result .first-value{
+    margin: 0 -1015px;
+}
 .loged-result .second-value{
     color: #42eb05;
     

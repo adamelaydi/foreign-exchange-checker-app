@@ -24,7 +24,7 @@ export default function LogedPair({base,quote}){
                 </div>
                 <div className="loged-result">
                     <p className='first-value'>1000.00</p>
-                    -
+                    </p>
                     <p className='second-value'>{Number(Data.rate*1000).toFixed(2)}</p>
                 </div>
             </div>
