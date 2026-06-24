@@ -26,7 +26,7 @@ export default function Compare(){
         <div className="compare">
             <div className="header-sec">
                 <p className="h"><span className="mult">multi-currency </span><span className="num">1000 from usd</span></p>
-                <p className="pair"><span>{pairs?.length}</span> pairs</p>
+                <p className="pair"><span>{pairs}</span> pairs</p>
             </div>
             <div className="pairs">
                 {pairs}

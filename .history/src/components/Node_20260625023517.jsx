@@ -11,7 +11,7 @@
         async function getData() {
         const d = await GetLiveMarketData(base, quote);
         
-        setData({...d,val:Number(d.rate*100).toFixed(2)});
+        setData({d});
         }
 
         if (base && quote) {

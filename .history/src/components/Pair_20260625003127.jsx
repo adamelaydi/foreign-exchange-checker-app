@@ -5,7 +5,7 @@ import { GetLiveMarketData } from '../API/LiveMarkeAPI';
 // MATERIAL UI
 import GradeIcon from '@mui/icons-material/Grade';
 // IMAGE
-import l from "../assets/eg.webp"
+import logo from "../assets/adam.we"
 // STYLING
 import "../styling/Paire.css"
 import { data } from 'react-router-dom';
@@ -20,7 +20,7 @@ export default function Paire({base,quote}){
     },[])
     return(
         <div className='parent'>
-            
+            <img src={logo}/>
             <div className="info pair-info">
                 <div className="name">
                     <p className="code">{quote}</p>

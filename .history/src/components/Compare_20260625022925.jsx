@@ -10,7 +10,7 @@ export default function Compare(){
     const [pairs,setPairs]=useState(null);
     useEffect(()=>{
         async function getData(){
-            let data = JSON.parse(localStorage.getItem("favorits"))
+            let data = JSON.parse(localStorage.getItem("compare"))
             let Pairs = data.map((d, index) => (
             <Paire
                 key={index}

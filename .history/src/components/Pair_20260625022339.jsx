@@ -20,7 +20,7 @@ export default function Paire({base,quote}){
     },[])
     return(
         <div className='parent'>
-            
+            <img src={}/>
             <div className="info pair-info">
                 <div className="name">
                     <p className="code">{quote}</p>

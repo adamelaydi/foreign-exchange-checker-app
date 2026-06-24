@@ -8,9 +8,11 @@ import "../styling/Compare.css"
 export default function Compare(){
     const {value,setValue}=useContext(DataContext)
     const [pairs,setPairs]=useState(null);
+    const [num,setNum]=useState(0)
     useEffect(()=>{
         async function getData(){
             let data = JSON.parse(localStorage.getItem("favorits"))
+            setNum(data.length);
             let Pairs = data.map((d, index) => (
             <Paire
                 key={index}
@@ -26,10 +28,10 @@ export default function Compare(){
         <div className="compare">
             <div className="header-sec">
                 <p className="h"><span className="mult">multi-currency </span><span className="num">1000 from usd</span></p>
-                <p className="pair"><span>{pairs?.length}</span> pairs</p>
+                <p className="pair">8 pairs</p>
             </div>
             <div className="pairs">
-                {pairs}
+                
             </div>
         </div>
     )

@@ -2,19 +2,21 @@
 import { useEffect,useState,useContext } from "react"
 import { DataContext } from "../contexts/DataContext";
 // COMPONENTS
-import Paire from "./Pair"
+import FavoritePair from "./FavoritePair"
 // STYLING
-import "../styling/Compare.css"
-export default function Compare(){
+import "../styling/Favorite.css"
+export default function Favourite(){
     const {value,setValue}=useContext(DataContext)
     const [pairs,setPairs]=useState(null);
+    const [num,setNum]=useState(0)
     useEffect(()=>{
         async function getData(){
             let data = JSON.parse(localStorage.getItem("favorits"))
+            setNum(data.length);
             let Pairs = data.map((d, index) => (
-            <Paire
+            <FavoritePair
                 key={index}
-                base={"USD"}
+                base={d.base}
                 quote={d.quote}
             />
 ));
@@ -23,12 +25,12 @@ export default function Compare(){
         getData();
         },[value.rate])
     return(
-        <div className="compare">
-            <div className="header-sec">
-                <p className="h"><span className="mult">multi-currency </span><span className="num">1000 from usd</span></p>
-                <p className="pair"><span>{pairs?.length}</span> pairs</p>
+        <div className="favorite">
+            <div className="header">
+                <p className="title">pinned pairs</p>
+                <p><span>{num}</span> favorites</p>
             </div>
-            <div className="pairs">
+            <div className="content">         
                 {pairs}
             </div>
         </div>
