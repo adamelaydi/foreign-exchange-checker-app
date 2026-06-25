@@ -1,18 +1,91 @@
-# React + Vite
+# FX Checker - Currency Exchange App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+FX Checker is a modern currency exchange application built with React that allows users to track live exchange rates, compare currencies, and view historical market data through interactive charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application uses real-time exchange rate data from the Frankfurter API and provides a clean, responsive user experience for monitoring foreign exchange markets.
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* 🌍 Live currency exchange rates
+* 💱 Currency conversion between multiple currencies
+* 📈 Historical exchange rate charts
+* 📊 Market trend visualization using ECharts
+* 🔄 Real-time data updates
+* 📅 Historical rate lookup
+* 🎨 Responsive and modern user interface
+* ⚡ Fast and optimized performance
 
-Note: This will impact Vite dev & build performances.
+## Technologies Used
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* CSS3
+
+### Libraries
+
+* Axios
+* Apache ECharts
+* Material UI (MUI)
+
+### API
+
+* Frankfurter API
+
+## Usage
+
+1. Select the base currency.
+2. Choose the target currency.
+3. Enter the amount to convert.
+4. View live exchange rates instantly.
+5. Explore historical trends through interactive charts.
+6. Compare currency performance over different time periods.
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── contexts/
+├── api/
+├── styling/
+├── hooks/
+├── handleClicks/
+└── App.jsx
+```
+
+## Future Improvements
+
+* Currency watchlist
+* Favorite currency pairs
+* Dark mode support
+* Exchange rate alerts
+* Market news integration
+* Advanced chart indicators
+* Offline caching
+
+## Learning Outcomes
+
+This project helped strengthen my understanding of:
+
+* React Hooks
+* Context API
+* API Integration
+* State Management
+* Data Visualization
+* Asynchronous JavaScript
+* Component Architecture
+* Responsive Design
+
+## Author
+
+Adam Ebrahim
+
+Computer Engineering Student passionate about web development, algorithms, and building practical applications.
+
+## License
+
+This project is open-source and available under the MIT License.
