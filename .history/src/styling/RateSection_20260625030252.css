@@ -97,10 +97,7 @@
     font-family: jetMono;
     height: 25px;
 }
-.rate-footer .btns button:first-child{
-    color: #42eb05;
-    border-color: #42eb05;
-}
+.rate-footer .btns button:first-child
 .rate-footer .btns button .star{
     size: 10px;
 }

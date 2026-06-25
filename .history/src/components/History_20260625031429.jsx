@@ -104,14 +104,12 @@ export default function History(){
                     </div>
                     <div className="node">
                         <p>change</p>
-                        <p  className='in'  style={{
-                            color:(Number(Chart.Y[Chart.Y.length-1]-Chart.Y[0]).toFixed(2)>0)?"green":"red"
-                        }}>{Number(Chart.Y[Chart.Y.length-1]-Chart.Y[0]).toFixed(2)}</p>
+                        <p  className='in'>{Number(Chart.Y[Chart.Y.length-1]-Chart.Y[0]).toFixed(2)}</p>
                     </div>
                     <div className="node">
                         <p>% change</p>
                         <p  className='in' style={{
-                            color:(Number(((Chart.Y[Chart.Y.length-1]-Chart.Y[0])/Chart.Y[0])*100).toFixed(2)>0)?"green":"red"
+                            color:(Number(((Chart.Y[Chart.Y.length-1]-Chart.Y[0])/Chart.Y[0])*100).toFixed(2)>0)?"green":
                         }}>{Number(((Chart.Y[Chart.Y.length-1]-Chart.Y[0])/Chart.Y[0])*100).toFixed(2)}%</p>
                     </div>
                 </div>

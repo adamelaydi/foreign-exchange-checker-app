@@ -31,21 +31,21 @@ export default function MultiProps(){
                     <Link to="/compare"  className="Link">
                     <li onClick={()=>{
                         if(innerWidth<"480"){
-                            setInput({value:"COMPARE" ,appeare:true})
+                            setInput({value:"COMPARE" ,appeare:false})
                         }                    
                         }}>compare</li>
                     </Link>
                     <Link to="/favorite"  className="Link">
                     <li onClick={()=>{
                         if(innerWidth<"480"){
-                            setInput({value:"FAVORITES" ,appeare:true})
+                            setInput({value:"FAVORITES" ,appeare:false})
                         }
                     }}>favorites</li>
                     </Link>
                     <Link to="/log"  className="Link">
                     <li onClick={()=>{
                         if(innerWidth<"480"){
-                            setInput({value:"LOG" ,appeare:true})
+                            setInput({value:"LOG" ,appeare:false})
                         }
                     }}>log</li>
                     </Link>

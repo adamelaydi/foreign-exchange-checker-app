@@ -17,13 +17,7 @@ export default function Compare(){
                     key={index}
                     base={"USD"}
                     quote={d.quote}
-                />:
-                    <Paire
-                    key={index}
-                    base={"USD"}
-                    quote={"EUR"}
                 />
-                
 
 ));
             setPairs(Pairs)

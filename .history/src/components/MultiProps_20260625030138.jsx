@@ -45,7 +45,7 @@ export default function MultiProps(){
                     <Link to="/log"  className="Link">
                     <li onClick={()=>{
                         if(innerWidth<"480"){
-                            setInput({value:"LOG" ,appeare:true})
+                            setInput({value:"LOG" ,appeare:false})
                         }
                     }}>log</li>
                     </Link>

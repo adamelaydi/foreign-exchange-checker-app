@@ -70,23 +70,18 @@ export default function RateSection(){
                         <p>1 <span>{value.base}</span> = <span>{Number(value.rate || 0).toFixed(2)}</span> <span>{value.quote}</span></p>
                         <div className="btns">
                             <button onClick={()=>{
-                                if(value.base&&value.quote&&value.rate){
-                                    if(!localStorage.getItem("favorits")){
-                                        localStorage.setItem("favorits",JSON.stringify([{base:value.base,quote:value.quote}]))
-                                    }else{
-                                        localStorage.setItem("favorits",JSON.stringify([...JSON.parse(localStorage.getItem("favorits")),{base:value.base,quote:value.quote}]))
-                                    }
-                                    
+                                if(val)
+                                if(!localStorage.getItem("favorits")){
+                                    localStorage.setItem("favorits",JSON.stringify([{base:value.base,quote:value.quote}]))
+                                }else{
+                                    localStorage.setItem("favorits",JSON.stringify([...JSON.parse(localStorage.getItem("favorits")),{base:value.base,quote:value.quote}]))
                                 }
                             }}><StarIcon fontSize="small"/>Favorite</button>
                             <button onClick={()=>{
-                                if(value.base&&value.quote&&value.rate){
-                                    if(!localStorage.getItem("log")){
-                                        localStorage.setItem("log",JSON.stringify([{base:value.base,quote:value.quote}]))
-                                    }else{
-                                        localStorage.setItem("log",JSON.stringify([...JSON.parse(localStorage.getItem("log")),{base:value.base,quote:value.quote}]))
-                                    }
-                                    
+                                if(!localStorage.getItem("log")){
+                                    localStorage.setItem("log",JSON.stringify([{base:value.base,quote:value.quote}]))
+                                }else{
+                                    localStorage.setItem("log",JSON.stringify([...JSON.parse(localStorage.getItem("log")),{base:value.base,quote:value.quote}]))
                                 }
                             }}>log conversion</button>
                         </div>

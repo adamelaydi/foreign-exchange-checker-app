@@ -81,12 +81,12 @@ export default function RateSection(){
                             }}><StarIcon fontSize="small"/>Favorite</button>
                             <button onClick={()=>{
                                 if(value.base&&value.quote&&value.rate){
-                                    if(!localStorage.getItem("log")){
-                                        localStorage.setItem("log",JSON.stringify([{base:value.base,quote:value.quote}]))
-                                    }else{
-                                        localStorage.setItem("log",JSON.stringify([...JSON.parse(localStorage.getItem("log")),{base:value.base,quote:value.quote}]))
-                                    }
                                     
+                                }
+                                if(!localStorage.getItem("log")){
+                                    localStorage.setItem("log",JSON.stringify([{base:value.base,quote:value.quote}]))
+                                }else{
+                                    localStorage.setItem("log",JSON.stringify([...JSON.parse(localStorage.getItem("log")),{base:value.base,quote:value.quote}]))
                                 }
                             }}>log conversion</button>
                         </div>

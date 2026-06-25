@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import { GetLiveMarketData } from '../API/LiveMarkeAPI';
 // MATERIAL UI
 import GradeIcon from '@mui/icons-material/Grade';
+// IMAGE
+import l from "../assets/eg.webp"
 // STYLING
 import "../styling/Paire.css"
 export default function Paire({base,quote}){

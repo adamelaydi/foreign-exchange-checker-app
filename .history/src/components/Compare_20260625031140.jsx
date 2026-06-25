@@ -18,7 +18,7 @@ export default function Compare(){
                     base={"USD"}
                     quote={d.quote}
                 />:
-                    <Paire
+                     <Paire
                     key={index}
                     base={"USD"}
                     quote={"EUR"}

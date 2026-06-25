@@ -12,19 +12,12 @@ export default function Compare(){
         async function getData(){
             let data = JSON.parse(localStorage.getItem("favorits"))
             let Pairs = data.map((d, index) => (
-            (d.quote!="USD")?
-                <Paire
-                    key={index}
-                    base={"USD"}
-                    quote={d.quote}
-                />:
-                    <Paire
-                    key={index}
-                    base={"USD"}
-                    quote={"EUR"}
-                />
-                
-
+            if(quote)
+            <Paire
+                key={index}
+                base={"USD"}
+                quote={d.quote}
+            />
 ));
             setPairs(Pairs)
         }
